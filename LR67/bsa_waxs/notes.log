@@ -1,0 +1,26 @@
+Note: removed all ligands (that is, HETATM lines), but kept crystal water
+
+Removed 1 crystal water with a distance > 0.4nm from the protein
+
+MD simulation:
+	Estimate for number of atoms in envelope = 19882 - will generate 98 simulation frames
+	Simulation time (ps)    = 52
+	Equilibration time (ps) = 3
+	Simulation system contained 9201 solute atoms and 27758 water molecules.
+	Added 8 Na+ to neutralize the simulation cell.
+
+SAXS/WAXS calculation:
+	Maximum q scattering vector [nm-1]:                   30
+	Number of solute and pure-sovlent simulation frames:  98
+	Simulation time discarded for equilibration (ps):     3
+	Correcting solvent density to [e/nm3]:                334
+	Number of q-points for spherical average:             Max{500, 0.20*(D*q)^2}  [D = diameter of envelope]
+	Distance of envelope from solute [nm]:                0.7
+	Maximum diameter of solute [nm]:                      9.45974
+	Number of atoms used for rotational fit:              1743
+	Buffer subtraction scheme:                            Total buffer intensity subtracted
+
+Guinier fit:
+	Rg [A] = 27.7356
+	For comparison: Rg(solute) [A] = 26.6705
+
