@@ -1,0 +1,57 @@
+time="2018-04-17T10:04:10-04:00" level=info msg="Executing denss in batches of parallel runs" batches=5 id=295 maxRuns=20 remainder=0 threads=4 
+time="2018-04-17T10:04:10-04:00" level=info msg="Spawning denss.py parallel runs" batchOffset=0 id=295 threads=4 
+time="2018-04-17T10:04:10-04:00" level=info msg="Running denss" id=295 thread=0 
+time="2018-04-17T10:04:10-04:00" level=info msg="Running denss" id=295 thread=2 
+time="2018-04-17T10:04:10-04:00" level=info msg="Running denss" id=295 thread=1 
+time="2018-04-17T10:04:10-04:00" level=info msg="Running denss" id=295 thread=3 
+time="2018-04-17T10:04:24-04:00" level=info msg="denss completed successfully" id=295 thread=3 
+time="2018-04-17T10:04:29-04:00" level=info msg="denss completed successfully" id=295 thread=1 
+time="2018-04-17T10:04:31-04:00" level=info msg="denss completed successfully" id=295 thread=0 
+time="2018-04-17T10:04:31-04:00" level=info msg="denss completed successfully" id=295 thread=2 
+time="2018-04-17T10:04:31-04:00" level=info msg="Spawning denss.py parallel runs" batchOffset=4 id=295 threads=4 
+time="2018-04-17T10:04:31-04:00" level=info msg="Running denss" id=295 thread=4 
+time="2018-04-17T10:04:31-04:00" level=info msg="Running denss" id=295 thread=6 
+time="2018-04-17T10:04:31-04:00" level=info msg="Running denss" id=295 thread=5 
+time="2018-04-17T10:04:31-04:00" level=info msg="Running denss" id=295 thread=7 
+time="2018-04-17T10:04:43-04:00" level=info msg="denss completed successfully" id=295 thread=7 
+time="2018-04-17T10:04:45-04:00" level=info msg="denss completed successfully" id=295 thread=5 
+time="2018-04-17T10:04:50-04:00" level=info msg="denss completed successfully" id=295 thread=4 
+time="2018-04-17T10:04:53-04:00" level=info msg="denss completed successfully" id=295 thread=6 
+time="2018-04-17T10:04:53-04:00" level=info msg="Spawning denss.py parallel runs" batchOffset=8 id=295 threads=4 
+time="2018-04-17T10:04:53-04:00" level=info msg="Running denss" id=295 thread=8 
+time="2018-04-17T10:04:53-04:00" level=info msg="Running denss" id=295 thread=10 
+time="2018-04-17T10:04:53-04:00" level=info msg="Running denss" id=295 thread=9 
+time="2018-04-17T10:04:53-04:00" level=info msg="Running denss" id=295 thread=11 
+time="2018-04-17T10:05:05-04:00" level=info msg="denss completed successfully" id=295 thread=10 
+time="2018-04-17T10:05:06-04:00" level=info msg="denss completed successfully" id=295 thread=11 
+time="2018-04-17T10:05:13-04:00" level=info msg="denss completed successfully" id=295 thread=8 
+time="2018-04-17T10:05:14-04:00" level=info msg="denss completed successfully" id=295 thread=9 
+time="2018-04-17T10:05:14-04:00" level=info msg="Spawning denss.py parallel runs" batchOffset=12 id=295 threads=4 
+time="2018-04-17T10:05:14-04:00" level=info msg="Running denss" id=295 thread=12 
+time="2018-04-17T10:05:14-04:00" level=info msg="Running denss" id=295 thread=15 
+time="2018-04-17T10:05:14-04:00" level=info msg="Running denss" id=295 thread=14 
+time="2018-04-17T10:05:14-04:00" level=info msg="Running denss" id=295 thread=13 
+time="2018-04-17T10:05:28-04:00" level=info msg="denss completed successfully" id=295 thread=14 
+time="2018-04-17T10:05:29-04:00" level=info msg="denss completed successfully" id=295 thread=12 
+time="2018-04-17T10:05:32-04:00" level=info msg="denss completed successfully" id=295 thread=15 
+time="2018-04-17T10:05:35-04:00" level=info msg="denss completed successfully" id=295 thread=13 
+time="2018-04-17T10:05:35-04:00" level=info msg="Spawning denss.py parallel runs" batchOffset=16 id=295 threads=4 
+time="2018-04-17T10:05:35-04:00" level=info msg="Running denss" id=295 thread=16 
+time="2018-04-17T10:05:35-04:00" level=info msg="Running denss" id=295 thread=18 
+time="2018-04-17T10:05:35-04:00" level=info msg="Running denss" id=295 thread=17 
+time="2018-04-17T10:05:35-04:00" level=info msg="Running denss" id=295 thread=19 
+time="2018-04-17T10:05:49-04:00" level=info msg="denss completed successfully" id=295 thread=18 
+time="2018-04-17T10:05:53-04:00" level=info msg="denss completed successfully" id=295 thread=17 
+time="2018-04-17T10:05:56-04:00" level=info msg="denss completed successfully" id=295 thread=16 
+time="2018-04-17T10:05:57-04:00" level=info msg="denss completed successfully" id=295 thread=19 
+time="2018-04-17T10:05:57-04:00" level=info msg="denss.py runs completed successfully" batches=5 id=295 maxRuns=20 remainder=0 threads=4 
+time="2018-04-17T10:05:57-04:00" level=info msg="Building stack hdf using EMAN2" id=295 stackFile="/home/denss/workdir/denss295-bsawaxs/stack.hdf" 
+time="2018-04-17T10:05:57-04:00" level=info msg="stack hdf built successfully" id=295 stackFile="/home/denss/workdir/denss295-bsawaxs/stack.hdf" 
+time="2018-04-17T10:05:57-04:00" level=info msg="Running averaging using EMAN2" id=295 stackResizedFile="/home/denss/workdir/denss295-bsawaxs/stack.hdf" threads=4 
+time="2018-04-17T10:09:56-04:00" level=info msg="Averaging completed successfully" id=295 stackResizedFile="/home/denss/workdir/denss295-bsawaxs/stack.hdf" threads=4 
+time="2018-04-17T10:09:56-04:00" level=info msg="Converting electron density map to CCP4" ccp4="/home/denss/workdir/denss295-bsawaxs/output_averaged.ccp4" hdf="/home/denss/workdir/denss295-bsawaxs/spt_01/final_avg_ali2ref.hdf" id=295 
+time="2018-04-17T10:09:56-04:00" level=info msg="Successfully converted electron density map to CCP4" ccp4="/home/denss/workdir/denss295-bsawaxs/output_averaged.ccp4" hdf="/home/denss/workdir/denss295-bsawaxs/spt_01/final_avg_ali2ref.hdf" id=295 
+time="2018-04-17T10:09:56-04:00" level=info msg="Plotting fsc curve" data="/home/denss/workdir/denss295-bsawaxs/spt_01/fsc_0.txt" id=295 
+time="2018-04-17T10:09:57-04:00" level=info msg="Successfully created FSC curve" data="/home/denss/workdir/denss295-bsawaxs/spt_01/fsc_0.txt" id=295 png="/home/denss/workdir/denss295-bsawaxs/fsc.png" 
+time="2018-04-17T10:09:57-04:00" level=info msg="Plotting summary chart" id=295 
+time="2018-04-17T10:09:59-04:00" level=info msg="Successfully created Summary chart" id=295 png="/home/denss/workdir/denss295-bsawaxs/summary.png" 

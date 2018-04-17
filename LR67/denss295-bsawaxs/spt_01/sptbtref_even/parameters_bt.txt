@@ -1,0 +1,19 @@
+2018-04-17 10:05:58.148582
+align=('rotate_translate_3d_tree', {})
+aligncmp=('ccc.tomo.thresh', {})
+averager=('mean.tomo', {})
+faligncmp=('ccc.tomo.thresh', {})
+input=sptbtrefsubset_even.hdf
+npeakstorefine=1
+parallel=thread:4
+path=/home/denss/workdir/denss295-bsawaxs/sptbtref_even_01
+ppid=-1
+precision=1.0
+saveali=True
+savesteps=True
+search=8
+searchfine=2
+shrink=1
+shrinkfine=1
+
+e2spt_binarytree.py --align=rotate_translate_3d_tree --aligncmp=ccc.tomo.thresh --averager=mean.tomo --faligncmp=ccc.tomo.thresh --input=sptbtrefsubset_even.hdf --npeakstorefine=1 --parallel=thread:4 --path=/home/denss/workdir/denss295-bsawaxs/sptbtref_even_01 --ppid=-1 --precision=1.0 --saveali --savesteps --search=8 --searchfine=2 --shrink=1 --shrinkfine=1

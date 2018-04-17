@@ -1,0 +1,40 @@
+2018-04-17 10:05:14 AM BEGIN
+2018-04-17 10:05:14 AM Data filename: /home/denss/workdir/denss295-bsawaxs/input.dat
+2018-04-17 10:05:14 AM Output prefix: /home/denss/workdir/denss295-bsawaxs/output_13
+2018-04-17 10:05:14 AM Maximum number of steps: 3000
+2018-04-17 10:05:14 AM q range of input data: 0.000 < q < 3.000
+2018-04-17 10:05:14 AM Maximum dimension: 94.000
+2018-04-17 10:05:14 AM Sampling ratio: 3.000
+2018-04-17 10:05:14 AM Requested real space voxel size: 8.812
+2018-04-17 10:05:14 AM Number of electrons: 10000.000
+2018-04-17 10:05:14 AM Limit Dmax: False
+2018-04-17 10:05:14 AM Recenter: True
+2018-04-17 10:05:14 AM Positivity: True
+2018-04-17 10:05:14 AM Extrapolate high q: True
+2018-04-17 10:05:14 AM Shrinkwrap: True
+2018-04-17 10:05:14 AM Shrinkwrap sigma start: 3
+2018-04-17 10:05:14 AM Shrinkwrap sigma end: 1.5
+2018-04-17 10:05:14 AM Shrinkwrap sigma decay: 0.99
+2018-04-17 10:05:14 AM Shrinkwrap threshold fraction: 0.2
+2018-04-17 10:05:14 AM Shrinkwrap iterations: 20
+2018-04-17 10:05:14 AM Shrinkwrap starting step: 0
+2018-04-17 10:05:14 AM Enforce connectivity: True
+2018-04-17 10:05:14 AM Enforce connectivity steps: [500]
+2018-04-17 10:05:14 AM Chi2 end fraction: 1.000e-03
+2018-04-17 10:05:14 AM Grid size (voxels): 32 x 32 x 32
+2018-04-17 10:05:14 AM Real space box width (angstroms): 282.000
+2018-04-17 10:05:14 AM Real space box range (angstroms): -141.000 < x < 141.000
+2018-04-17 10:05:14 AM Real space box volume (angstroms^3): 22425768.000
+2018-04-17 10:05:14 AM Real space voxel size (angstroms): 8.812
+2018-04-17 10:05:14 AM Real space voxel volume (angstroms^3): 684.380
+2018-04-17 10:05:14 AM Reciprocal space box width (angstroms^(-1)): 0.691
+2018-04-17 10:05:14 AM Reciprocal space box range (angstroms^(-1)): -0.356 < qx < 0.334
+2018-04-17 10:05:14 AM Maximum q vector (diagonal) (angstroms^(-1)): 0.617
+2018-04-17 10:05:14 AM Number of q shells: 27
+2018-04-17 10:05:14 AM Width of q shells (angstroms^(-1)): 0.022
+2018-04-17 10:05:14 AM Random seed: 1992678721
+2018-04-17 10:05:35 AM Number of steps: 2999
+2018-04-17 10:05:35 AM Final Chi2: 7.690e-01
+2018-04-17 10:05:35 AM Final Rg: 31.038
+2018-04-17 10:05:35 AM Final Support Volume: 260748.828
+2018-04-17 10:05:35 AM END

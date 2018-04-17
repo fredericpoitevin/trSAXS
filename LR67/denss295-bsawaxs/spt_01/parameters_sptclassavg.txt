@@ -1,0 +1,22 @@
+2018-04-17 10:05:57.631299
+align=('rotate_translate_3d_tree', {})
+aligncmp=('ccc.tomo.thresh', {})
+averager=('mean.tomo', {})
+input=/home/denss/workdir/denss295-bsawaxs/stack.hdf
+iter=1
+keep=3.0
+keepsig=True
+npeakstorefine=1
+parallel=thread:4
+path=/home/denss/workdir/denss295-bsawaxs/spt_01
+ppid=-1
+precision=1.0
+raw=/home/denss/workdir/denss295-bsawaxs/stack.hdf
+saveali=True
+savesteps=True
+search=8
+searchfine=2
+shrink=1
+shrinkfine=1
+
+e2spt_classaverage.py --align=rotate_translate_3d_tree --aligncmp=ccc.tomo.thresh --averager=mean.tomo --input=/home/denss/workdir/denss295-bsawaxs/stack.hdf --iter=1 --keep=3.0 --keepsig --npeakstorefine=1 --parallel=thread:4 --path=/home/denss/workdir/denss295-bsawaxs/spt_01 --ppid=-1 --precision=1.0 --raw=/home/denss/workdir/denss295-bsawaxs/stack.hdf --saveali --savesteps --search=8 --searchfine=2 --shrink=1 --shrinkfine=1
