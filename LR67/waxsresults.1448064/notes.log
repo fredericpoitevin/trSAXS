@@ -1,0 +1,25 @@
+
+Removed 40 crystal water with a distance > 0.4nm from the protein
+
+MD simulation:
+	Estimate for number of atoms in envelope = 14765 - will generate 123 simulation frames
+	Simulation time (ps)    = 64.5
+	Equilibration time (ps) = 3
+	Simulation system contained 5546 solute atoms and 22020 water molecules.
+	Added 5 Na+ to neutralize the simulation cell.
+
+SAXS/WAXS calculation:
+	Maximum q scattering vector [nm-1]:                   10
+	Number of solute and pure-sovlent simulation frames:  123
+	Simulation time discarded for equilibration (ps):     3
+	Correcting solvent density to [e/nm3]:                334
+	Number of q-points for spherical average:             Max{500, 0.20*(D*q)^2}  [D = diameter of envelope]
+	Distance of envelope from solute [nm]:                0.7
+	Maximum diameter of solute [nm]:                      9.69414
+	Number of atoms used for rotational fit:              1037
+	Buffer subtraction scheme:                            Buffer intensity reduced by solute volume
+
+Guinier fit:
+	Rg [A] = 24.3296
+	For comparison: Rg(solute) [A] = 23.7326
+
