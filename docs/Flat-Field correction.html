@@ -11824,6 +11824,63 @@ python ave.waxs.py <span class="o">{</span>i<span class="o">}</span>
 </div>
 </div>
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Jet-geometry">Jet geometry<a class="anchor-link" href="#Jet-geometry">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">math</span> <span class="k">import</span> <span class="n">pi</span>
+<span class="c1"># some constants:</span>
+<span class="n">Na</span> <span class="o">=</span> <span class="mf">6.02e23</span> <span class="c1"># Avogadro number</span>
+<span class="n">MW</span> <span class="o">=</span> <span class="mf">6.6e4</span>   <span class="c1"># g/mol</span>
+<span class="n">L2m3</span> <span class="o">=</span> <span class="mf">1e3</span>   <span class="c1"># convert L to m3</span>
+<span class="c1"># sample concentration</span>
+<span class="n">c</span> <span class="o">=</span> <span class="mi">30</span> <span class="c1"># mg/ml</span>
+<span class="c1"># scattering volume radius</span>
+<span class="n">r</span> <span class="o">=</span> <span class="mi">300</span>  <span class="c1"># nm</span>
+<span class="n">L</span> <span class="o">=</span> <span class="mi">5000</span> <span class="c1"># nm (interaction length)</span>
+<span class="c1">#</span>
+<span class="n">r</span> <span class="o">=</span> <span class="n">r</span><span class="o">*</span><span class="mf">1e-9</span>
+<span class="n">L</span> <span class="o">=</span> <span class="n">L</span><span class="o">*</span><span class="mf">1e-9</span>
+<span class="c1">#V = 4.*pi*r*r*r/3.</span>
+<span class="n">V</span> <span class="o">=</span> <span class="n">pi</span><span class="o">*</span><span class="n">r</span><span class="o">*</span><span class="n">r</span><span class="o">*</span><span class="n">L</span>
+<span class="n">d</span> <span class="o">=</span> <span class="p">(</span><span class="n">Na</span><span class="o">*</span><span class="n">c</span><span class="o">/</span><span class="n">MW</span><span class="p">)</span><span class="o">*</span><span class="n">L2m3</span>
+<span class="n">N</span> <span class="o">=</span> <span class="n">d</span><span class="o">*</span><span class="n">V</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">V</span><span class="p">,</span><span class="n">d</span><span class="p">,</span><span class="n">N</span><span class="p">)</span>
+<span class="c1">#</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>1.4137166941154073e-18 2.7363636363636362e+23 386844.2953897614
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
     </div>
   </div>
 </body>
